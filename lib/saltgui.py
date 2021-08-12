@@ -66,8 +66,8 @@ class MplCanvas(FigureCanvas):
 
         # Set resize policy
         FigureCanvas.setSizePolicy(self,
-                                   QtGui.QSizePolicy.Expanding,
-                                   QtGui.QSizePolicy.Expanding)
+                                   QtWidgets.QSizePolicy.Expanding,
+                                   QtWidgets.QSizePolicy.Expanding)
 
         # Set geometry
         FigureCanvas.updateGeometry(self)
